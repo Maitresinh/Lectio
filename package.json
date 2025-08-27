@@ -1,0 +1,41 @@
+{
+  "name": "lectio-app",
+  "version": "1.0.0",
+  "description": "📚 Lectio - Alternative open source à Glose - Plateforme de lecture collaborative",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:migrate": "prisma migrate dev",
+    "db:seed": "tsx prisma/seed.ts"
+  },
+  "keywords": ["lectio", "glose", "epub", "pdf", "collaborative", "reading", "annotations"],
+  "author": "Lectio Team",
+  "license": "MIT",
+  "dependencies": {
+    "@auth/prisma-adapter": "^2.10.0",
+    "@prisma/client": "^6.15.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.11",
+    "@types/react-dom": "^19.1.8",
+    "autoprefixer": "^10.4.21",
+    "bcryptjs": "^3.0.2",
+    "epubjs": "^0.3.93",
+    "next": "^15.5.2",
+    "next-auth": "^5.0.0-beta.29",
+    "pdfjs-dist": "^5.4.54",
+    "postcss": "^8.5.6",
+    "prisma": "^6.15.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.12",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1"
+  }
+}
